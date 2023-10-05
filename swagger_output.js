@@ -5,7 +5,7 @@ const str = `{
     "title": "REST API",
     "description": ""
   },
-  "host": "https://simple-backend-zlwj.onrender.com",
+  "host": "simple-backend-zlwj.onrender.com",
   "basePath": "/",
   "schemes": [],
   "paths": {
