@@ -7,9 +7,7 @@ const str = `{
   },
   "host": "https://simple-backend-zlwj.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http"
-  ],
+  "schemes": [],
   "paths": {
     "/teacher/get-result/{teacherID}": {
       "get": {
