@@ -13,7 +13,7 @@ app.use('/', router);
 app.use('/api-doc', swaggerUI.serve, swaggerUI.setup(JSON.parse(str)));
 
 mongoose
-  .connect("mongodb+srv://kushagra:root-k@result-app.wn6lsei.mongodb.net/?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://kushagra:root-k@result-app.olfwqri.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
