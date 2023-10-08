@@ -4,9 +4,11 @@ import mongoose from "mongoose";
 import { router } from "./routes/router.js";
 import swaggerUI from 'swagger-ui-express';
 import {str} from './swagger_output.js';
+import cors from 'cors';
 
 const app = express();
 
+app.use(cors("*"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', router);
